@@ -1,1 +1,211 @@
-<h1>hello world</h1>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<style>
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  .segment, .lines, .title, .line div {
+    display: inline-block;
+  }
+  .segment {
+    width: 80%;
+    text-align: left;
+    background-color: lightgrey;
+    border: thin solid black;
+  }
+  .title {
+    width: 100%;
+    background-color: black;
+    padding: 2% 0;
+    color: white;
+    font-size: x-large;
+    font-weight: 400;
+  }
+  .title span {
+    padding-left: 2%;
+  }
+  .lines {
+    width: 100%;
+  }
+  .line {
+    padding: 2% 1%;
+    font-size: large;
+  }
+  .code {
+    width: 18%;
+  }
+  .destintation, .schedule {
+    width: 38%;
+  }
+  .line > div {
+    vertical-align: top;
+  }
+  .line i {
+    margin-right: 2%;
+  }
+
+
+  @media screen and (max-width: 992px) {
+    .segment, .container iframe {
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .title {
+      font-size: large;
+    }
+    .line {
+      font-size: initial;
+    }
+  }
+
+}
+
+</style>
+<div class="container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1540253.6898259933!2d-88.15973055640004!3d41.06225995473654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cbad40c9143%3A0xf9625c22f5d03e7e!2sWashington+%26+State!5e0!3m2!1sen!2sca!4v1542871770539" width="80%" height="200px" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <div class="segment">
+    <div class="title"><span>Eastbound</span></div>
+    <div class="lines">
+      <div class="line">
+        <div class="code">
+          <span>60</span>
+        </div>
+        <div class="destintation">
+          <i class="fas fa-arrow-right"></i>
+          <span>Randolph/Harbor Dr</span>
+        </div>
+        <div class="schedule">
+          <i class="far fa-clock"></i>
+          <span>Every 20 minutes</span>
+        </div>
+      </div>
+      <div class="line">
+        <div class="code">
+          <span>124</span>
+        </div>
+        <div class="destintation">
+          <i class="fas fa-arrow-right"></i>
+          <span>Navy Pier</span>
+        </div>
+        <div class="schedule">
+          <i class="far fa-clock"></i>
+          <span>Every 10 minutes</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="segment">
+    <div class="title"><span>Northbound</span></div>
+    <div class="lines">
+      <div class="line">
+        <div class="code">
+          <span>151</span>
+        </div>
+        <div class="destintation">
+          <i class="fas fa-arrow-right"></i>
+          <span>Devon/Clark</span>
+        </div>
+        <div class="schedule">
+          <i class="far fa-clock"></i>
+          <span>Every 16 minutes</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="segment">
+    <div class="title"><span>Southbound</span></div>
+    <div class="lines">
+      <div class="line">
+        <div class="code">
+          <span>J14</span>
+        </div>
+        <div class="destintation">
+          <i class="fas fa-arrow-right"></i>
+          <span>103rd/Stony Island</span>
+        </div>
+        <div class="schedule">
+          <i class="far fa-clock"></i>
+          <span>Every 15 minutes</span>
+        </div>
+      </div>
+      <div class="line">
+        <div class="code">
+          <span>124</span>
+        </div>
+        <div class="destintation">
+          <i class="fas fa-arrow-right"></i>
+          <span>Navy Pier</span>
+        </div>
+        <div class="schedule">
+          <i class="far fa-clock"></i>
+          <span>Every 10 minutes</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="segment">
+    <div class="title"><span>Reroute</span></div>
+    <div class="lines">
+      <div class="line">
+        <div class="code">
+          <span>6x</span>
+        </div>
+        <div class="destintation">
+          <i class="fas fa-arrow-right"></i>
+          <span>103rd/Stony Island</span>
+        </div>
+        <div class="schedule">
+          <i class="far fa-clock"></i>
+          <span>N/A</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="segment">
+    <div class="title"><span>Out of service</span></div>
+    <div class="lines">
+      <div class="line">
+        <div class="items">
+          <span class="item">4</span>
+        </div>
+        <div class="destintation">
+          <i class="fas fa-arrow-right"></i>
+          <span>Cottage Grove</span>
+        </div>
+        <div class="schedule">
+          <i class="far fa-clock"></i>
+          <span>Resumes 12:10am</span>
+        </div>
+      </div class="items">
+      <div class="line">
+        <div class="code">
+          <span>20</span>
+        </div>
+        <div class="destintation">
+          <i class="fas fa-arrow-right"></i>
+          <span>Madison</span>
+        </div>
+        <div class="schedule">
+          <i class="far fa-clock"></i>
+          <span>Resumes 12:10am</span>
+        </div>
+      </div>
+      <div class="line">
+        <div class="code">
+          <span>157</span>
+        </div>
+        <div class="destintation">
+          <i class="fas fa-arrow-right"></i>
+          <span>Streeterville/Taylor</span>
+        </div>
+        <div class="schedule">
+          <i class="far fa-clock"></i>
+          <span>Resumes 6:00am</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
